@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return(
       <React.Fragment>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
           <NavBar />
             <Switch>
               <Route exact path="/" component={withRouter(Home)} />
