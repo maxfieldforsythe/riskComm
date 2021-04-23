@@ -5,7 +5,7 @@ export default class NavBar extends Component {
   render() {
     return(
       <nav className='navbar navbar-expand-sm bg-dark navbar-dark fixed-top px-sm-5'>
-        <Link to='/risk'>
+        <Link to='/'>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
               Risk Communication
