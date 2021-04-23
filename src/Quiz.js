@@ -117,9 +117,6 @@ export default class  extends Component {
                     <h4 style={{fontSize: '5vh', color: '#2e2e2e', textAlign: 'center', marginBottom: '50px'}}>
                         Select the answer that appeals more to you
                     </h4>
-                    <h4>
-                        {this.state.scoreS} {this.state.scoreG} {this.state.scoreN}   {this.state.counter}
-                    </h4>
                     <h4 style={{color: '#2e2e2e', textAlign: 'center', marginBottom: '50px'}}>
                         {this.state.numQuestion} of 9
                     </h4>
@@ -130,13 +127,17 @@ export default class  extends Component {
                     </div>
                 </div>
                 <div style={this.state.showN}>
-N                </div>
+                    You tend to think like a Nationalist! Nothing wrong with that, just letting you know. Head on back to the homepage by clocking the blue Risk communication text on the top bar. Keep your results in mind while reading about the facts and possible bias you may have.
+                </div>
                 <div style={this.state.showG}>
-G                </div>
+                    You tend to think like a globalist! Nothing wrong with that, just letting you know. Head on back to the homepage by clocking the blue Risk communication text on the top bar. Keep your results in mind while reading about the facts and possible bias you may have.
+                </div>
                 <div style={this.state.showS}>
-S                </div>
+                    You tend to think like a Sociologist/Anthropologist! Nothing wrong with that, just letting you know. Head on back to the homepage by clocking the blue Risk communication text on the top bar. Keep your results in mind while reading about the facts and possible bias you may have.
+                </div>
                 <div style={this.state.showNon}>
-Non                </div>
+                    Wow! You evenly agree with each perspective and seem to hve no bias! Nothing wrong with that, just letting you know. Still, make sure you understand the facts as they relate to every side when you continue reading through my research.
+                </div>
             </div>
         )
     }
