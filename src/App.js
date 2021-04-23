@@ -16,7 +16,7 @@ class App extends Component {
           <Router basename={process.env.PUBLIC_URL}>
           <NavBar />
             <Switch>
-              <Route exact path="/" component={withRouter(Home)} />
+              <Route exact path="/risk" component={withRouter(Home)} />
               <Route path="/quiz" component={withRouter(Quiz)} />
             </Switch>
           </Router>
